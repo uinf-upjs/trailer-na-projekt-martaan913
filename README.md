@@ -24,6 +24,8 @@ Homework Planner je praktická a efektívna mobilná aplikácia určená pre št
 
 Hlavným rozdielom v aplikáciach bude v jednoduchosti mojej, keďže v mojej pôjde len o domáce úlohy a písomky.
 
+Mockup: https://mockitt.wondershare.com/proto/1ooDDJWHsaymtsHauqmT/sharing?view_mode=device&screen=rbpU88idthjo0P1CK&canvasId=rcU88kjp3Bvu2fpM
+
 Color scheme:
 
 (light)
