@@ -30,16 +30,16 @@ Color scheme:
 
 (light)
 
-    Dark Blue: #1976d2
+    Dark Blue: 0xff1976d2
   
-    Medium Blue: #2196f3
+    Medium Blue: 0xff2196f3
   
-    Light Blue: #bbdefb
+    Light Blue: 0xffbbdefb
 
 (dark)
 
-    Dark Blue: #0a3560
+    Dark Blue: 0xff0a3560
   
-    Medium Blue: #1d5d90
+    Medium Blue: 0xff1d5d90
   
-    Light Blue: #3a88c1
+    Light Blue: 0xff3a88c1
