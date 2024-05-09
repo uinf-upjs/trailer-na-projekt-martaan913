@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Homework">Domáce úlohy</string>
+    <string name="Exams">Písomky</string>
+    <string name="settings">Nastavenia</string>
+    <string name="language">Language</string>
+
+    <string name="theme">Theme</string>
+
+    <string name="back">Späť</string>
+    <string name="addHomework">Pridať domácu</string>
+    <string name="subject">Predmet</string>
+    <string name="title">Názov</string>
+    <string name="description">Popis</string>
+    <string name="deadline">Do dňa</string>
+    <string name="errorTittle">Chyba</string>
+    <string name="errorCreatingHomework">Nevyplnili ste povinné polia</string>
+    <string name="subject_label">Predmet</string>
+    <string name="title_label">Názov</string>
+    <string name="description_label">Popis</string>
+    <string name="deleteHomework">Vymazať domácu</string>
+    <string name="editHomework">Opraviť domácu</string>
+    <string name="infoTitle">Info</string>
+    <string name="leavingInfo">Nedokončili ste úpravu. Prajete si odísť?</string>
+    <string name="dealetingInfo">Prajete si vymazať domácu</string>
+    <string name="supportingText">Povinné polia</string>
+    <string name="deadline_label">Do dňa</string>
+</resources>

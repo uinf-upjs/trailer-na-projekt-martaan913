@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name" translatable="false">HomeworkPlanner</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="title_activity_exam" translatable="false">ExamActivity</string>
+    <string name="Homework">Homework</string>
+    <string name="Exams">Exams</string>
+    <string name="settings">Settings</string>
+    <string name="language">Jazyk</string>
+    <string name="theme">Theme</string>
+    <string name="title_activity_settings" translatable="false">title_activity_settings</string>
+    <string name="title_activity_homework" translatable="false">HomeworkActivity</string>
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+    <string name="back">Back</string>
+    <string name="addHomework">Add Homework</string>
+    <string name="title_activity_add" translatable="false">AddActivity</string>
+    <string name="subject">Subject</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="deadline">Deadline</string>
+    <string name="errorTittle">Error</string>
+    <string name="errorCreatingHomework">You didn`t fill in required fields!</string>
+    <string name="subject_label">Subject</string>
+    <string name="title_label">Title</string>
+    <string name="description_label">Description</string>
+    <string name="deleteHomework">Delete homework\n</string>
+    <string name="editHomework">Edit homework</string>
+    <string name="infoTitle">Info</string>
+    <string name="leavingInfo">You didn`t finished editing. \nDo you wish to leave anyway?</string>
+    <string name="dealetingInfo">Do you wish to delete?</string>
+    <string name="supportingText">Required field</string>
+    <string name="deadline_label">Deadline</string>
+    <string name="language_key" translatable="false">language_preference</string>
+    <string name="theme_key" translatable="false">language_preference</string>
+    <string name="title_activity_add_exam">AddExamActivity</string>
+</resources>
