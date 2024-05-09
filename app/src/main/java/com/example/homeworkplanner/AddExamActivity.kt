@@ -1,5 +1,6 @@
 package com.example.homeworkplanner
 
+import android.app.TimePickerDialog
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -28,6 +29,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
+import androidx.compose.material3.TimePicker
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -51,8 +53,6 @@ import java.time.LocalDate
 import java.time.LocalTime
 
 class AddExamActivity : ComponentActivity() {
-    val sharedPref = applicationContext.getSharedPreferences("my_preferences", Context.MODE_PRIVATE)
-    val isDark = sharedPref.getBoolean(applicationContext.getString(R.string.theme_key), true)
 
     private val db by lazy {
         Room.databaseBuilder(
@@ -65,7 +65,7 @@ class AddExamActivity : ComponentActivity() {
         factoryProducer = {
             object : ViewModelProvider.Factory {
                 override fun <T : ViewModel> create(modelClass: Class<T>): T {
-                    return DataModelViewModel(db.dao) as T
+                    return DataModelViewModel(db.dao,db.examDao) as T
                 }
             }
         }
@@ -73,6 +73,9 @@ class AddExamActivity : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        val sharedPref = applicationContext.getSharedPreferences("my_preferences", Context.MODE_PRIVATE)
+        val isDark = sharedPref.getBoolean(applicationContext.getString(R.string.theme_key), true)
 
         val id = intent.getStringExtra("id")
         val subject = intent.getStringExtra("subject")
