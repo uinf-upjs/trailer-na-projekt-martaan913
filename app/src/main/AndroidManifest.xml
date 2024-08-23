@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <application
@@ -16,19 +15,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HomeworkPlanner"
-        tools:targetApi="31">
+        tools:targetApi="33">
         <activity
-            android:name=".AddExamActivity"
+            android:name="com.bobersoft.myapplication.AddExamActivity"
             android:exported="false"
             android:label="@string/title_activity_add_exam"
             android:theme="@style/Theme.HomeworkPlanner" />
         <activity
-            android:name=".ExamActivity"
+            android:name="com.bobersoft.myapplication.ExamActivity"
             android:exported="false"
             android:label="@string/title_activity_exam"
             android:theme="@style/Theme.HomeworkPlanner" />
         <activity
-            android:name=".AddHomeworkActivity"
+            android:name="com.bobersoft.myapplication.AddHomeworkActivity"
             android:exported="false"
             android:label="@string/title_activity_add"
             android:theme="@style/Theme.HomeworkPlanner" />
@@ -37,15 +36,17 @@
             android:exported="true"
             android:label="@string/title_activity_main"
             android:theme="@style/Theme.HomeworkPlanner">
+        </activity>
+        <activity android:name="com.bobersoft.myapplication.MenuActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MenuActivity" />
         <activity
-            android:name=".HomeworkActivity"
+            android:name="com.bobersoft.myapplication.HomeworkActivity"
             android:exported="true">
 
         </activity>

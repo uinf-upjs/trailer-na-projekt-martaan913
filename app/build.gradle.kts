@@ -5,15 +5,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.homeworkplanner"
+    namespace = "com.bobersoft.homeworkplanner"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.homeworkplanner"
+        applicationId = "com.bobersoft.homeworkplanner"
         minSdk = 33
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -64,7 +64,7 @@ dependencies {
     implementation(platform("androidx.compose:compose-bom:2023.08.00"))
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation(platform("androidx.compose:compose-bom:2023.08.00"))
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")
@@ -91,7 +91,26 @@ dependencies {
     implementation("com.maxkeppeler.sheets-compose-dialogs:core:1.3.0")
     implementation("com.maxkeppeler.sheets-compose-dialogs:date-time:1.3.0")
     implementation("com.maxkeppeler.sheets-compose-dialogs:calendar:1.3.0")
+    implementation("com.maxkeppeler.sheets-compose-dialogs:clock:1.3.0")
     implementation("androidx.room:room-ktx:2.6.1")
     kapt("androidx.room:room-compiler:2.6.1")
     implementation("com.google.accompanist:accompanist-permissions:0.31.1-alpha")
+    implementation("co.yml:ycharts:2.1.0")
+
+    // work manager
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+
+    // coroutines
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutines")
+    api("org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutines")
+
+    // Lifecycle components
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$rootProject.lifecycleVersion")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$rootProject.lifecycleVersion")
+    // Lifecycle utilities for Compose
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:$rootProject.lifecycleVersion")
+
+    implementation("androidx.fragment:fragment-ktx:1.7.0")
+
+    implementation("androidx.compose.material:material:1.6.7")
 }

@@ -18,21 +18,38 @@
     <string name="title_activity_add" translatable="false">AddActivity</string>
     <string name="subject">Subject</string>
     <string name="title">Title</string>
-    <string name="description">Description</string>
+    <string name="description">Note</string>
     <string name="deadline">Deadline</string>
     <string name="errorTittle">Error</string>
     <string name="errorCreatingHomework">You didn`t fill in required fields!</string>
-    <string name="subject_label">Subject</string>
-    <string name="title_label">Title</string>
-    <string name="description_label">Description</string>
+    <string name="subject_label">Subject*</string>
+    <string name="title_label">Title*</string>
+    <string name="description_label">Note</string>
     <string name="deleteHomework">Delete homework\n</string>
-    <string name="editHomework">Edit homework</string>
+    <string name="editHomework">Edit Homework</string>
     <string name="infoTitle">Info</string>
     <string name="leavingInfo">You didn`t finished editing. \nDo you wish to leave anyway?</string>
-    <string name="dealetingInfo">Do you wish to delete?</string>
-    <string name="supportingText">Required field</string>
-    <string name="deadline_label">Deadline</string>
+    <string name="deletingInfo">Do you wish to delete?</string>
+    <string name="supportingText">*required field</string>
+    <string name="deadline_label">Deadline*</string>
     <string name="language_key" translatable="false">language_preference</string>
     <string name="theme_key" translatable="false">language_preference</string>
-    <string name="title_activity_add_exam">AddExamActivity</string>
+    <string name="title_activity_add_exam" translatable="false">AddExamActivity</string>
+    <string name="time_label">Time*</string>
+    <string name="finished_label">Finished</string>
+    <string name="oral_exam">Oral exam</string>
+    <string name="written_exam">Written exam</string>
+    <string name="practical_exam">Practical exam</string>
+    <string name="addHomework_label">Add homework</string>
+    <string name="channel_name" translatable="false">channelName</string>
+    <string name="channel_description" translatable="false">channelDescription</string>
+    <string name="notification_text" translatable="false">Homework/Exam will be in 7 days.</string>
+    <string name="addExam_label">Add Exam</string>
+    <string name="category_label">Category*</string>
+    <string name="saveHomework">Save Homework</string>
+    <string name="saveExam">Save Exam</string>
+    <string name="lateHomework">Late homework</string>
+    <string name="pastHomeworks">--Past homeworks--</string>
+    <string name="pastExams">--Past Exams--</string>
+    <string name="cancel_label">Cancel</string>
 </resources>
